@@ -1,54 +1,49 @@
-# ✅ Todo List App
+# Todo List App
 
-### by Rifqi Alvanzo Atthallah
-
----
-
-## 🚀 Overview
-
-**Todo List App** adalah aplikasi sederhana berbasis web yang digunakan untuk mencatat, mengelola, dan melacak aktivitas harian.
-
-Aplikasi ini dibangun menggunakan **HTML, CSS, dan JavaScript (Vanilla JS)** serta memanfaatkan **Local Storage** untuk menyimpan data secara permanen di browser.
+### Rifqi Alvanzo Atthallah
 
 ---
 
-## 🎯 Tujuan Project
+## Overview
 
-* Melatih kemampuan dasar JavaScript (DOM Manipulation)
-* Memahami penggunaan Local Storage
+Todo List App adalah aplikasi web sederhana yang digunakan untuk mencatat dan mengelola aktivitas harian. Aplikasi ini dibangun menggunakan HTML, CSS, dan JavaScript tanpa framework, dengan memanfaatkan Local Storage sebagai media penyimpanan data.
+
+Project ini menekankan pada pemahaman dasar pengolahan data di sisi client serta manipulasi DOM secara dinamis.
+
+---
+
+## Tujuan Project
+
+* Memahami dasar JavaScript (DOM manipulation)
+* Mengimplementasikan Local Storage
 * Membuat aplikasi interaktif berbasis web
-* Meningkatkan skill UI/UX sederhana
+* Melatih penulisan kode yang terstruktur
 
 ---
 
-## 🛠️ Tech Stack
+## Teknologi yang Digunakan
 
-* **HTML5** → struktur aplikasi
-* **CSS3** → styling & layout
-* **JavaScript (Vanilla JS)** → logic & interaktivitas
-* **Local Storage** → penyimpanan data
-
----
-
-## ✨ Features
-
-* ➕ Menambahkan task baru dengan tanggal
-* 📅 Menyimpan due date
-* ✅ Menandai task sebagai selesai (complete)
-* ❌ Menghapus task satu per satu
-* 🗑️ Menghapus semua task sekaligus
-* 🔍 Filter task:
-
-  * All Task
-  * Pending
-  * Complete
-* 💾 Data tersimpan otomatis di browser (Local Storage)
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+* Local Storage
 
 ---
 
-## 📂 Struktur Project
+## Fitur
 
-```id="zpj1g8"
+* Menambahkan task baru beserta tanggal
+* Menandai task sebagai selesai
+* Menghapus task secara individu
+* Menghapus seluruh task
+* Filter task (All, Pending, Complete)
+* Penyimpanan data otomatis di browser
+
+---
+
+## Struktur Project
+
+```
 todo-list-app/
 │
 ├── index.html
@@ -60,68 +55,48 @@ todo-list-app/
 
 ---
 
-## 🧠 Cara Kerja Aplikasi
+## Cara Kerja
 
-* Data task disimpan dalam array `todos`
-* Setiap perubahan akan disimpan ke **Local Storage**
-* Data akan otomatis dimuat kembali saat halaman dibuka
-* Filtering dilakukan menggunakan method `.filter()`
-* Rendering UI dilakukan secara dinamis menggunakan DOM
+Data task disimpan dalam array dan akan disinkronkan ke Local Storage setiap terjadi perubahan. Saat halaman dimuat, data akan diambil kembali dari Local Storage dan ditampilkan ke dalam tabel.
+
+Filtering dilakukan dengan memanfaatkan method `filter()` pada array, sedangkan rendering tampilan menggunakan manipulasi DOM secara langsung.
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 1. Clone repository:
 
-   ```bash
-   git clone https://github.com/rifqialvanzoatthallah/todo-list-app.git
+   ```
+   git clone https://github.com/rifqialvanzoatthallah/CodingCamp-150925-rifqialvanzoatthallah.git
    ```
 
 2. Masuk ke folder project:
 
-   ```bash
-   cd todo-list-app
+   ```
+   cd CodingCamp-150925-rifqialvanzoatthallah
    ```
 
-3. Buka file `index.html` di browser
+3. Buka file `index.html` menggunakan browser
 
 ---
 
-## 🔮 Future Improvements
+## Pengembangan Selanjutnya
 
-* Edit task ✏️
-* Notifikasi deadline ⏰
-* Drag & drop task
-* Dark mode 🌙
-* Integrasi database (Firebase / API)
-
----
-
-## 👨‍💻 Author
-
-**Rifqi Alvanzo Atthallah**
-
-> Seorang developer pemula yang sedang berkembang menjadi profesional 🚀
+* Fitur edit task
+* Notifikasi deadline
+* Tampilan responsive
+* Mode gelap
+* Integrasi database atau API
 
 ---
 
-## 📬 Connect
+## Author
 
-* GitHub: https://github.com/rifqialvanzoatthallah
-* LinkedIn: https://www.linkedin.com
-* Instagram: https://instagram.com
+Rifqi Alvanzo Atthallah
 
 ---
 
-## ⭐ Support
+## Penutup
 
-Jika project ini bermanfaat, jangan lupa kasih ⭐ ya 🙌
-
----
-
-## 📝 Closing
-
-> "Small projects build big skills."
-
----
+Project ini merupakan bagian dari proses belajar dan akan terus dikembangkan seiring peningkatan kemampuan dalam pengembangan web.
